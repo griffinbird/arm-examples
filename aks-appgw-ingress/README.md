@@ -1,4 +1,4 @@
-Deploying App Gateway Ingress Controller using ARM
+Deploying App Gateway Ingress Controller using ARM (Greenfield)
 ==============
 
 Prerequisities
