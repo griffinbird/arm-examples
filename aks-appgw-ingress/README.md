@@ -71,7 +71,12 @@ Diagnosing Issues
 
 TODO
 ----
-?
+If you want to use an existing AppGw, or an existing vnet, or do advanced config on the vnet, then extra steps apply (mainly RABC assignment for the MSI or Identity the AppGw ingress management uses).
+For future reference when we look back at this in 6 months time:
+
+Contributor on AppGwId [CONST_INGRESS_APPGW_APPLICATION_GATEWAY_ID],
+Network Contributor on SubnetID [CONST_INGRESS_APPGW_SUBNET_ID]
+OR Contributor on VNetId [result.agent_pool_profiles[0].vnet_subnet_id]
 
 Resources
 ---------
@@ -79,3 +84,5 @@ Resources
 * [App Gateway Ingress Controller](https://azure.github.io/application-gateway-kubernetes-ingress/)
 * [Ingress Controller Add-on for AKS (Greenfield)](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-new)
 * [Ingress controller Add-on for AKS (Brownfield)](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-existing)
+* [Ingress Applicaiton Gateway configuration keys](https://github.com/Azure/azure-cli-extensions/blob/dcdb8b865cb95dbe0522210d749e2db528d0b89c/src/aks-preview/azext_aks_preview/_consts.py#L16)
+
