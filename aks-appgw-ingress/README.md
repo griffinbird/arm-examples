@@ -71,7 +71,7 @@ Diagnosing Issues
 
 TODO
 ----
-If you want to use an existing AppGw, or an existing vnet, or do advanced config on the vnet, then extra steps apply (mainly RABC assignment for the MSI or Identity the AppGw ingress management uses).
+If you want to use an existing AppGw, or an existing vnet, or do advanced config on the vnet, then extra steps apply (mainly RBAC assignment for the MSI or Identity the AppGw ingress management uses).
 For future reference when we look back at this in 6 months time:
 
 Contributor on AppGwId [CONST_INGRESS_APPGW_APPLICATION_GATEWAY_ID],
